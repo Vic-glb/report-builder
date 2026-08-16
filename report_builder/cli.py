@@ -116,7 +116,7 @@ def run_build(args) -> int:
         console.print()
         render_preview(sections, console)
 
-    console.print(f"\n[bold green]Report:[/bold green] {out}")
+    console.print(f"\n[bold #3FB950]Report:[/bold #3FB950] {out}")
 
     if args.export_png:
         _save_png(console, args.export_png)
@@ -157,7 +157,7 @@ def run_demo(args) -> int:
         render_preview(sections, console)
 
         if args.out:
-            console.print(f"[bold green]Workbook:[/bold green] {out}")
+            console.print(f"[bold #3FB950]Workbook:[/bold #3FB950] {out}")
         else:
             console.print(
                 "[dim]The workbook was written to a temporary folder and discarded. "
@@ -172,11 +172,11 @@ def run_demo(args) -> int:
 def _save_png(console: Console, path: Path) -> None:
     try:
         export_png(console, path)
-        console.print(f"[bold green]Image:[/bold green]  {path}")
+        console.print(f"[bold #3FB950]Image:[/bold #3FB950]  {path}")
     except (OSError, ValueError, ImportError) as exc:
         # The image is a convenience; failing to draw it must not fail a run
         # whose workbook was written.
-        console.print(f"[yellow]Could not write the PNG:[/yellow] {exc}")
+        console.print(f"[#D29922]Could not write the PNG:[/#D29922] {exc}")
 
 
 def main(argv: list[str] | None = None) -> int:

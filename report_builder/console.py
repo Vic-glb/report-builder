@@ -33,7 +33,7 @@ def render_run(config_title: str, source_name: str, dataset: Dataset,
     flagged = len(dataset.flagged)
     facts.add_row(
         "Rows with a flagged value",
-        Text(str(flagged), style=FLAG if flagged else "green"),
+        Text(str(flagged), style=FLAG if flagged else "#3FB950"),
     )
     console.print(Panel(facts, title="Run", border_style="cyan", expand=False))
 
@@ -73,7 +73,7 @@ def render_run(config_title: str, source_name: str, dataset: Dataset,
             result.section.name,
             str(len(result.rows)),
             result.section.chart.type if result.section.chart else Text("—", style="dim"),
-            Text(str(excluded_count), style=FLAG if excluded_count else "green"),
+            Text(str(excluded_count), style=FLAG if excluded_count else "#3FB950"),
             "; ".join(why),
         )
     console.print(overview)
