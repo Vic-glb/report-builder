@@ -181,18 +181,17 @@ def _write_section(sheet, result: SectionResult, config: ReportConfig) -> None:
             anchor = f"{get_column_letter(len(headers) + 2)}{header_row}"
             sheet.add_chart(chart, anchor)
 
-    note_row = last_row + 2
-    sheet.cell(
-        row=note_row, column=1,
-        value="This table is the chart's data source. Change a value and the chart updates.",
-    )
-    if result.rows_without_key:
-        sheet.cell(
-            row=note_row + 1, column=1,
-            value=f"{result.rows_without_key} row(s) are not represented here: their grouping "
-                  "value could not be read. They are listed on the Data sheet.",
-        )
+    # Column widths must be settled before the notes are written, because the
+    # notes are wrapped to fit inside them.
     _fit(sheet)
+
+    notes = ["This table is the chart's data source. Change a value and the chart updates."]
+    if result.rows_without_key:
+        notes.append(
+            f"{result.rows_without_key} row(s) are not represented here: their grouping "
+            "value could not be read. They are listed on the Data sheet."
+        )
+    _write_notes(sheet, notes, last_row + 2, len(headers))
 
 
 # ------------------------------------------------------------------------ data
@@ -245,6 +244,33 @@ def _write_value(cell, row, column: str, config: ReportConfig) -> None:
 
 
 # ---------------------------------------------------------------------- shared
+
+
+def _write_notes(sheet, notes: list[str], first_row: int, table_columns: int) -> None:
+    """Write the notes under the table, wrapped to the table's own width.
+
+    A long note left on one row overflows to the right until it meets something,
+    and what it meets is the chart — which clips it mid-sentence, in the workbook
+    as well as in any print or PDF export of it. Wrapping to the width the table
+    actually occupies keeps every sentence readable.
+    """
+    import textwrap
+
+    # The columns the note may spill across: the table, plus the empty gap column
+    # before the chart's anchor.
+    budget = 0
+    for column in range(1, table_columns + 2):
+        dimension = sheet.column_dimensions.get(get_column_letter(column))
+        budget += int(dimension.width) if dimension and dimension.width else 10
+    # Excel column "width" is measured in characters of the default font, so the
+    # sum is already a character budget. A small margin avoids touching the chart.
+    budget = max(40, budget - 4)
+
+    row = first_row
+    for note in notes:
+        for line in textwrap.wrap(note, width=budget) or [""]:
+            sheet.cell(row=row, column=1, value=line)
+            row += 1
 
 
 def _comment(text: str):

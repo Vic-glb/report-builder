@@ -317,3 +317,19 @@ def test_demo_can_export_an_image(tmp_path):
 
     with Image.open(png) as image:
         assert image.height > 400
+
+
+def test_notes_under_a_section_are_wrapped_not_left_to_run_under_the_chart(built):
+    # A long note on one row overflows rightwards until it meets the chart, which
+    # clips it mid-sentence — in the workbook and in any export of it.
+    out, _, _, _ = built
+    sheet = load_workbook(out)["Revenue by month"]
+
+    notes = [sheet.cell(row=r, column=1).value
+             for r in range(4, sheet.max_row + 1)
+             if isinstance(sheet.cell(row=r, column=1).value, str)
+             and sheet.cell(row=r, column=1).value.strip()]
+    joined = " ".join(notes)
+
+    assert "listed on the Data sheet." in joined, "the sentence must survive whole"
+    assert all(len(n) <= 120 for n in notes), "no note row should be long enough to reach the chart"

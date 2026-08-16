@@ -24,7 +24,8 @@
         { "column": "net_amount", "function": "sum", "label": "Net revenue" },
         { "column": "order_id", "function": "count", "label": "Orders" }
       ],
-      "chart": { "type": "column", "values": ["Net revenue"], "title": "Net revenue by month" }
+      "chart": { "type": "column", "values": ["Net revenue"], "title": "Net revenue by month",
+                 "height": 12.5, "width": 21 }
     },
     {
       "name": "Revenue by region",
