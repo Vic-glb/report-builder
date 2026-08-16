@@ -1,0 +1,61 @@
+{
+  "title": "Sales report — sample data",
+  "dayfirst": true,
+  "number_format": "#,##0.00",
+  "date_format": "yyyy-mm-dd",
+
+  "columns": {
+    "order_date": { "type": "date", "required": true },
+    "net_amount": { "type": "number", "required": true, "min": 0 },
+    "unit_price": { "type": "number", "min": 0 },
+    "quantity": { "type": "number", "min": 1, "max": 100 },
+    "region": { "type": "text" },
+    "channel": { "type": "text" },
+    "sales_rep": { "type": "text" },
+    "customer": { "type": "text" },
+    "product": { "type": "text" }
+  },
+
+  "sections": [
+    {
+      "name": "Revenue by month",
+      "group_by": ["month(order_date)"],
+      "aggregations": [
+        { "column": "net_amount", "function": "sum", "label": "Net revenue" },
+        { "column": "order_id", "function": "count", "label": "Orders" }
+      ],
+      "chart": { "type": "column", "values": ["Net revenue"], "title": "Net revenue by month" }
+    },
+    {
+      "name": "Revenue by region",
+      "group_by": ["region"],
+      "sort_by": "Net revenue",
+      "aggregations": [
+        { "column": "net_amount", "function": "sum", "label": "Net revenue" },
+        { "column": "customer", "function": "count_distinct", "label": "Customers" },
+        { "column": "net_amount", "function": "mean", "label": "Average order" }
+      ],
+      "chart": { "type": "bar", "values": ["Net revenue"], "title": "Net revenue by region" }
+    },
+    {
+      "name": "Top products",
+      "group_by": ["product"],
+      "sort_by": "Net revenue",
+      "top": 5,
+      "aggregations": [
+        { "column": "net_amount", "function": "sum", "label": "Net revenue" },
+        { "column": "quantity", "function": "sum", "label": "Units sold" }
+      ],
+      "chart": { "type": "pie", "values": ["Net revenue"], "title": "Share of revenue by product" }
+    },
+    {
+      "name": "By rep and channel",
+      "group_by": ["sales_rep", "channel"],
+      "sort_by": "Net revenue",
+      "aggregations": [
+        { "column": "net_amount", "function": "sum", "label": "Net revenue" },
+        { "column": "order_id", "function": "count", "label": "Orders" }
+      ]
+    }
+  ]
+}

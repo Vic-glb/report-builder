@@ -1,0 +1,125 @@
+order_id;order_date;region;channel;sales_rep;customer;product;quantity;unit_price;net_amount
+ZAM-0001;2026-06-03;Pomorskie;sklep;A. Nowak;Klient testowy 12;Szkolenie;6;800,00;4 800,00
+ZAM-0002;2026-07-07;Śląskie;sklep;C. Zieliński;Klient testowy 15;Szkolenie;3;800,00;2 400,00
+ZAM-0003;2026-04-17;Małopolskie;online;D. Wiśniewska;Klient testowy 06;Pakiet rozszerzony;1;1 200,00;1 200,00
+ZAM-0004;2026-06-25;Dolnośląskie;sklep;A. Nowak;Klient testowy 05;Wdrożenie;5;2 500,00;12 500,00
+ZAM-0005;2026-01-10;Dolnośląskie;online;B. Kowalska;Klient testowy 11;Wdrożenie;5;2 500,00;12 500,00
+ZAM-0006;2026-01-16;Mazowieckie;online;D. Wiśniewska;Klient testowy 11;Wsparcie miesięczne;4;249,00;996,00
+ZAM-0007;2026-05-20;Śląskie;telefon;C. Zieliński;Klient testowy 08;Pakiet rozszerzony;7;1 200,00;8 400,00
+ZAM-0008;2026-01-12;Dolnośląskie;telefon;A. Nowak;Klient testowy 19;Wsparcie miesięczne;4;249,00;996,00
+ZAM-0009;2026-07-09;Małopolskie;online;B. Kowalska;Klient testowy 16;Wdrożenie;2;2 500,00;5 000,00
+ZAM-0010;2026-02-13;Dolnośląskie;online;D. Wiśniewska;Klient testowy 13;Pakiet startowy;1;450,00;450,00
+ZAM-0011;2026-03-05;Małopolskie;telefon;A. Nowak;Klient testowy 12;Wsparcie miesięczne;4;249,00;996,00
+ZAM-0012;2026-05-05;Dolnośląskie;online;C. Zieliński;Klient testowy 21;Pakiet startowy;5;450,00;2 250,00
+ZAM-0013;30.07.2026;Śląskie;online;D. Wiśniewska;Klient testowy 01;Pakiet rozszerzony;7;1 200,00;8 400,00
+ZAM-0014;2026-07-10;Śląskie;sklep;A. Nowak;Klient testowy 22;Wsparcie miesięczne;6;249,00;1 494,00
+ZAM-0015;2026-01-28;Mazowieckie;online;D. Wiśniewska;Klient testowy 09;Wdrożenie;6;2 500,00;15 000,00
+ZAM-0016;2026-02-03;Śląskie;sklep;B. Kowalska;Klient testowy 17;Pakiet rozszerzony;2;1 200,00;2 400,00
+ZAM-0017;2026-03-29;Mazowieckie;online;B. Kowalska;Klient testowy 05;Szkolenie;5;800,00;do ustalenia
+ZAM-0018;2026-04-02;Dolnośląskie;telefon;C. Zieliński;Klient testowy 15;Wsparcie miesięczne;5;249,00;1 245,00
+ZAM-0019;2026-02-09;Dolnośląskie;telefon;C. Zieliński;Klient testowy 20;Pakiet rozszerzony;2;1 200,00;2 400,00
+ZAM-0020;2026-06-24;Małopolskie;sklep;C. Zieliński;Klient testowy 12;Pakiet rozszerzony;5;1 200,00;6 000,00
+ZAM-0021;2026-05-25;Śląskie;online;D. Wiśniewska;Klient testowy 10;Wdrożenie;5;2 500,00;12 500,00
+ZAM-0022;2026-07-23;Pomorskie;sklep;A. Nowak;Klient testowy 01;Pakiet rozszerzony;6;1 200,00;7 200,00
+ZAM-0023;;Mazowieckie;online;D. Wiśniewska;Klient testowy 19;Wdrożenie;1;2 500,00;2 500,00
+ZAM-0024;2026-06-11;Małopolskie;sklep;D. Wiśniewska;Klient testowy 01;Szkolenie;3;800,00;2 400,00
+ZAM-0025;2026-07-06;Mazowieckie;telefon;A. Nowak;Klient testowy 06;Wsparcie miesięczne;6;249,00;1 494,00
+ZAM-0026;20.01.2026;Śląskie;telefon;D. Wiśniewska;Klient testowy 14;Wdrożenie;1;2 500,00;2 500,00
+ZAM-0027;2026-05-18;Mazowieckie;telefon;D. Wiśniewska;Klient testowy 15;Pakiet startowy;6;450,00;2 700,00
+ZAM-0028;2026-06-25;Pomorskie;online;B. Kowalska;Klient testowy 06;Pakiet rozszerzony;4;1 200,00;4 800,00
+ZAM-0029;2026-06-29;Pomorskie;sklep;D. Wiśniewska;Klient testowy 12;Szkolenie;9999;800,00;6 400,00
+ZAM-0030;2026-03-19;Pomorskie;sklep;C. Zieliński;Klient testowy 13;Wdrożenie;6;2 500,00;15 000,00
+ZAM-0031;2026-04-08;Pomorskie;telefon;D. Wiśniewska;Klient testowy 08;Wsparcie miesięczne;4;249,00;996,00
+ZAM-0032;2026-01-26;Dolnośląskie;telefon;A. Nowak;Klient testowy 09;Pakiet rozszerzony;3;1 200,00;3 600,00
+ZAM-0033;2026-06-08;Pomorskie;online;D. Wiśniewska;Klient testowy 09;Wdrożenie;6;2 500,00;15 000,00
+ZAM-0034;2026-05-12;Dolnośląskie;online;B. Kowalska;Klient testowy 07;Wsparcie miesięczne;5;249,00;do ustalenia
+ZAM-0035;2026-06-21;Pomorskie;online;C. Zieliński;Klient testowy 17;Pakiet startowy;3;450,00;1 350,00
+ZAM-0036;2026-01-12;Małopolskie;telefon;C. Zieliński;Klient testowy 08;Pakiet rozszerzony;4;1 200,00;4 800,00
+ZAM-0037;2026-03-16;Mazowieckie;sklep;A. Nowak;Klient testowy 19;Pakiet rozszerzony;8;1 200,00;9 600,00
+ZAM-0038;2026-07-01;Pomorskie;online;B. Kowalska;Klient testowy 11;Szkolenie;7;800,00;5 600,00
+ZAM-0039;23.01.2026;Dolnośląskie;sklep;B. Kowalska;Klient testowy 13;Pakiet rozszerzony;6;1 200,00;7 200,00
+ZAM-0040;2026-02-04;Pomorskie;sklep;D. Wiśniewska;Klient testowy 19;Pakiet rozszerzony;3;1 200,00;3 600,00
+ZAM-0041;2026-01-26;Mazowieckie;online;D. Wiśniewska;Klient testowy 15;Pakiet rozszerzony;1;1 200,00;1 200,00
+ZAM-0042;2026-01-17;Pomorskie;telefon;B. Kowalska;Klient testowy 07;Szkolenie;5;800,00;4 000,00
+ZAM-0043;2026-07-23;Pomorskie;telefon;B. Kowalska;Klient testowy 10;Wdrożenie;4;2 500,00;10 000,00
+ZAM-0044;2026-02-19;Dolnośląskie;sklep;A. Nowak;Klient testowy 05;Wdrożenie;6;2 500,00;15 000,00
+ZAM-0045;2026-02-25;Śląskie;sklep;A. Nowak;Klient testowy 14;Szkolenie;2;800,00;1 600,00
+ZAM-0046;;Pomorskie;sklep;D. Wiśniewska;Klient testowy 14;Szkolenie;6;800,00;4 800,00
+ZAM-0047;2026-04-10;Mazowieckie;online;B. Kowalska;Klient testowy 16;Wsparcie miesięczne;5;249,00;1 245,00
+ZAM-0048;2026-02-20;Małopolskie;sklep;B. Kowalska;Klient testowy 15;Pakiet rozszerzony;1;1 200,00;1 200,00
+ZAM-0049;2026-02-08;Mazowieckie;sklep;D. Wiśniewska;Klient testowy 08;Wdrożenie;1;2 500,00;2 500,00
+ZAM-0050;2026-06-25;Śląskie;online;D. Wiśniewska;Klient testowy 04;Wdrożenie;2;2 500,00;5 000,00
+ZAM-0051;2026-01-18;Mazowieckie;online;A. Nowak;Klient testowy 16;Wdrożenie;2;2 500,00;do ustalenia
+ZAM-0052;11.02.2026;Mazowieckie;online;D. Wiśniewska;Klient testowy 14;Wsparcie miesięczne;4;249,00;996,00
+ZAM-0053;2026-02-02;Śląskie;sklep;C. Zieliński;Klient testowy 16;Pakiet startowy;1;450,00;450,00
+ZAM-0054;2026-05-15;Pomorskie;online;A. Nowak;Klient testowy 12;Wdrożenie;8;2 500,00;20 000,00
+ZAM-0055;2026-06-13;Śląskie;sklep;D. Wiśniewska;Klient testowy 16;Szkolenie;2;800,00;1 600,00
+ZAM-0056;2026-06-06;Dolnośląskie;telefon;B. Kowalska;Klient testowy 15;Szkolenie;4;800,00;3 200,00
+ZAM-0057;2026-01-13;Śląskie;telefon;C. Zieliński;Klient testowy 11;Szkolenie;5;800,00;4 000,00
+ZAM-0058;2026-04-03;Pomorskie;telefon;B. Kowalska;Klient testowy 09;Wsparcie miesięczne;9999;249,00;498,00
+ZAM-0059;2026-02-08;Małopolskie;sklep;C. Zieliński;Klient testowy 07;Wsparcie miesięczne;7;249,00;1 743,00
+ZAM-0060;2026-04-14;Dolnośląskie;sklep;A. Nowak;Klient testowy 12;Wsparcie miesięczne;6;249,00;1 494,00
+ZAM-0061;2026-04-04;Małopolskie;online;B. Kowalska;Klient testowy 01;Pakiet startowy;2;450,00;900,00
+ZAM-0062;2026-04-13;Śląskie;sklep;C. Zieliński;Klient testowy 03;Wsparcie miesięczne;4;249,00;996,00
+ZAM-0063;2026-04-16;Pomorskie;telefon;A. Nowak;Klient testowy 08;Pakiet startowy;3;450,00;1 350,00
+ZAM-0064;2026-04-19;Dolnośląskie;sklep;A. Nowak;Klient testowy 13;Pakiet startowy;2;450,00;900,00
+ZAM-0065;29.04.2026;Małopolskie;telefon;D. Wiśniewska;Klient testowy 18;Szkolenie;3;800,00;2 400,00
+ZAM-0066;2026-05-22;Mazowieckie;telefon;B. Kowalska;Klient testowy 08;Szkolenie;4;800,00;3 200,00
+ZAM-0067;2026-07-25;Dolnośląskie;telefon;B. Kowalska;Klient testowy 08;Wdrożenie;1;2 500,00;2 500,00
+ZAM-0068;2026-06-26;Mazowieckie;sklep;C. Zieliński;Klient testowy 05;Pakiet rozszerzony;7;1 200,00;do ustalenia
+ZAM-0069;;Mazowieckie;telefon;D. Wiśniewska;Klient testowy 06;Wdrożenie;7;2 500,00;17 500,00
+ZAM-0070;2026-03-04;Śląskie;online;A. Nowak;Klient testowy 09;Pakiet rozszerzony;4;1 200,00;4 800,00
+ZAM-0071;2026-07-19;Pomorskie;online;A. Nowak;Klient testowy 17;Pakiet startowy;7;450,00;3 150,00
+ZAM-0072;2026-06-24;Dolnośląskie;sklep;D. Wiśniewska;Klient testowy 13;Szkolenie;4;800,00;3 200,00
+ZAM-0073;2026-05-10;Małopolskie;telefon;A. Nowak;Klient testowy 16;Wdrożenie;8;2 500,00;20 000,00
+ZAM-0074;2026-03-01;Śląskie;sklep;C. Zieliński;Klient testowy 05;Pakiet startowy;5;450,00;2 250,00
+ZAM-0075;2026-05-07;Dolnośląskie;telefon;D. Wiśniewska;Klient testowy 17;Pakiet startowy;5;450,00;2 250,00
+ZAM-0076;2026-05-29;Śląskie;online;D. Wiśniewska;Klient testowy 15;Pakiet startowy;3;450,00;1 350,00
+ZAM-0077;2026-04-24;Śląskie;online;D. Wiśniewska;Klient testowy 13;Szkolenie;4;800,00;3 200,00
+ZAM-0078;27.07.2026;Dolnośląskie;sklep;D. Wiśniewska;Klient testowy 07;Wsparcie miesięczne;7;249,00;1 743,00
+ZAM-0079;2026-04-05;Śląskie;online;D. Wiśniewska;Klient testowy 03;Pakiet startowy;1;450,00;450,00
+ZAM-0080;2026-05-02;Pomorskie;telefon;B. Kowalska;Klient testowy 21;Wsparcie miesięczne;8;249,00;1 992,00
+ZAM-0081;2026-02-19;Dolnośląskie;telefon;B. Kowalska;Klient testowy 18;Wsparcie miesięczne;4;249,00;996,00
+ZAM-0082;2026-05-23;Pomorskie;online;A. Nowak;Klient testowy 08;Wdrożenie;7;2 500,00;17 500,00
+ZAM-0083;2026-05-26;Dolnośląskie;sklep;A. Nowak;Klient testowy 13;Szkolenie;7;800,00;5 600,00
+ZAM-0084;2026-04-23;Śląskie;telefon;C. Zieliński;Klient testowy 19;Pakiet rozszerzony;7;1 200,00;8 400,00
+ZAM-0085;2026-07-06;Śląskie;online;A. Nowak;Klient testowy 22;Pakiet rozszerzony;1;1 200,00;do ustalenia
+ZAM-0086;2026-07-31;Dolnośląskie;online;D. Wiśniewska;Klient testowy 06;Wdrożenie;7;2 500,00;17 500,00
+ZAM-0087;2026-02-01;Pomorskie;online;B. Kowalska;Klient testowy 21;Szkolenie;9999;800,00;4 800,00
+ZAM-0088;2026-03-25;Mazowieckie;sklep;A. Nowak;Klient testowy 05;Pakiet startowy;8;450,00;3 600,00
+ZAM-0089;2026-07-24;Dolnośląskie;online;C. Zieliński;Klient testowy 14;Szkolenie;1;800,00;800,00
+ZAM-0090;2026-03-02;Śląskie;sklep;D. Wiśniewska;Klient testowy 01;Pakiet startowy;7;450,00;3 150,00
+ZAM-0091;22.06.2026;Śląskie;online;D. Wiśniewska;Klient testowy 07;Pakiet startowy;1;450,00;450,00
+ZAM-0092;;Dolnośląskie;online;C. Zieliński;Klient testowy 19;Szkolenie;3;800,00;2 400,00
+ZAM-0093;2026-06-10;Małopolskie;online;C. Zieliński;Klient testowy 10;Pakiet startowy;4;450,00;1 800,00
+ZAM-0094;2026-07-05;Pomorskie;online;C. Zieliński;Klient testowy 22;Wsparcie miesięczne;6;249,00;1 494,00
+ZAM-0095;2026-04-22;Dolnośląskie;telefon;A. Nowak;Klient testowy 03;Wsparcie miesięczne;1;249,00;249,00
+ZAM-0096;2026-01-29;Małopolskie;telefon;C. Zieliński;Klient testowy 21;Szkolenie;4;800,00;3 200,00
+ZAM-0097;2026-05-07;Śląskie;telefon;A. Nowak;Klient testowy 06;Szkolenie;7;800,00;5 600,00
+ZAM-0098;2026-01-09;Pomorskie;online;A. Nowak;Klient testowy 11;Pakiet startowy;4;450,00;1 800,00
+ZAM-0099;2026-06-05;Małopolskie;online;A. Nowak;Klient testowy 09;Szkolenie;2;800,00;1 600,00
+ZAM-0100;2026-05-25;Dolnośląskie;telefon;C. Zieliński;Klient testowy 17;Pakiet rozszerzony;2;1 200,00;2 400,00
+ZAM-0101;2026-04-01;Mazowieckie;online;C. Zieliński;Klient testowy 08;Szkolenie;8;800,00;6 400,00
+ZAM-0102;2026-01-08;Pomorskie;telefon;A. Nowak;Klient testowy 10;Pakiet startowy;3;450,00;do ustalenia
+ZAM-0103;2026-07-06;Pomorskie;telefon;D. Wiśniewska;Klient testowy 11;Wsparcie miesięczne;6;249,00;1 494,00
+ZAM-0104;25.07.2026;Małopolskie;online;C. Zieliński;Klient testowy 13;Pakiet rozszerzony;6;1 200,00;7 200,00
+ZAM-0105;2026-07-12;Śląskie;online;A. Nowak;Klient testowy 21;Pakiet rozszerzony;1;1 200,00;1 200,00
+ZAM-0106;2026-05-16;Śląskie;sklep;B. Kowalska;Klient testowy 17;Wdrożenie;7;2 500,00;17 500,00
+ZAM-0107;2026-05-11;Pomorskie;telefon;C. Zieliński;Klient testowy 18;Wsparcie miesięczne;3;249,00;747,00
+ZAM-0108;2026-03-26;Dolnośląskie;telefon;C. Zieliński;Klient testowy 18;Szkolenie;3;800,00;2 400,00
+ZAM-0109;2026-03-11;Pomorskie;online;A. Nowak;Klient testowy 19;Pakiet startowy;2;450,00;900,00
+ZAM-0110;2026-01-21;Pomorskie;sklep;A. Nowak;Klient testowy 21;Pakiet rozszerzony;7;1 200,00;8 400,00
+ZAM-0111;2026-01-16;Mazowieckie;sklep;C. Zieliński;Klient testowy 01;Pakiet startowy;2;450,00;900,00
+ZAM-0112;2026-05-24;Śląskie;telefon;B. Kowalska;Klient testowy 09;Pakiet rozszerzony;1;1 200,00;1 200,00
+ZAM-0113;2026-03-24;Mazowieckie;telefon;A. Nowak;Klient testowy 05;Wsparcie miesięczne;3;249,00;747,00
+ZAM-0114;2026-04-04;Mazowieckie;online;D. Wiśniewska;Klient testowy 22;Pakiet startowy;8;450,00;3 600,00
+ZAM-0115;;Śląskie;telefon;B. Kowalska;Klient testowy 15;Szkolenie;8;800,00;6 400,00
+ZAM-0116;2026-02-03;Mazowieckie;online;C. Zieliński;Klient testowy 08;Wsparcie miesięczne;9999;249,00;1 494,00
+ZAM-0117;12.02.2026;Śląskie;online;A. Nowak;Klient testowy 05;Szkolenie;5;800,00;4 000,00
+ZAM-0118;2026-05-02;Śląskie;sklep;C. Zieliński;Klient testowy 07;Wsparcie miesięczne;8;249,00;1 992,00
+ZAM-0119;2026-02-03;Małopolskie;sklep;B. Kowalska;Klient testowy 20;Wdrożenie;6;2 500,00;do ustalenia
+ZAM-0120;2026-01-14;Mazowieckie;online;B. Kowalska;Klient testowy 15;Wsparcie miesięczne;8;249,00;1 992,00
+ZAM-0121;2026-06-20;Pomorskie;sklep;B. Kowalska;Klient testowy 04;Pakiet rozszerzony;2;1 200,00;2 400,00
+ZAM-0122;2026-02-17;Dolnośląskie;telefon;C. Zieliński;Klient testowy 18;Pakiet rozszerzony;2;1 200,00;2 400,00
+ZAM-0123;2026-06-16;Dolnośląskie;online;B. Kowalska;Klient testowy 06;Pakiet rozszerzony;4;1 200,00;4 800,00
+ZAM-0124;2026-05-04;Mazowieckie;telefon;B. Kowalska;Klient testowy 10;Pakiet startowy;1;450,00;450,00

@@ -1,0 +1,16 @@
+# python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# never commit real client data or reports built from it
+/input/
+/output/
+*.report.xlsx
+
+# secrets, in case a future version needs any
+.env
+
+# misc
+.DS_Store
